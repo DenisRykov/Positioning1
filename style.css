@@ -1,0 +1,46 @@
+header  {
+    position: relative;
+}
+.wrapper {
+    background-image: url('https://d3aux7tjp119y2.cloudfront.net/images/DSC01125_hero-CMSTemplate_0kv1mmz.max-1500x1000.jpg');
+    background-size: cover;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 300px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.center {
+    border: solid red 3px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.center:hover   {
+    background-color: lightBlue;
+    cursor: pointer;
+    color: black;
+}
+
